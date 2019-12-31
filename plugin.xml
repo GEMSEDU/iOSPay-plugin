@@ -175,7 +175,7 @@
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  
-	  		  <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+	  	<!-- 	  <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
 			<array>
 			  <string>webcredentials:digital.enterprisetouch.com</string>
 			</array>
@@ -185,16 +185,16 @@
 			<array>
 			  	<string>webcredentials:digital.enterprisetouch.com</string>
 			</array>
-		  </config-file>
+		  </config-file>-->	
 		  
 		  <!-- Adding autofill-credential-provider -->	  
-	  	   <config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
+	  	  <!--  <config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			  		<true/>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			   	<true/>
-		  </config-file>
+		  </config-file>-->	
 		  
 	
     </platform>
